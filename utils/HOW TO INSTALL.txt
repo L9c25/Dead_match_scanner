@@ -1,0 +1,77 @@
+==============================================================================
+***ENG*** DEADLOCK TOOLKIT - QUICK INSTALLATION GUIDE
+==============================================================================
+
+1. AUTOMATIC INSTALLATION (1 CLICK):
+   - Double-click the file: “Instalar_Deadlock_Scanner.bat”
+   - The installer will copy the files to the Adobe Premiere Pro extensions folder
+     and enable the necessary permissions in the Windows Registry.
+
+2. OPENING IN PREMIERE PRO:
+   - Open or restart Adobe Premiere Pro (versions 2025 or 2026).
+   - In the top menu, go to: Window > Extensions.
+   - Click on: “Deadlock Toolkit”.
+
+3. LOCAL ASSETS PACKAGE (FREE PLAN):
+   - Extract the “Deadlock_Assets” folder you downloaded from Google Drive to
+     any location on your computer (e.g., Documents or C:\Deadlock_Assets).
+   - In the extension panel in Premiere Pro, click the folder icon (📁)
+     or the “Configure Folder” banner and select the “Deadlock_Assets” folder.
+   - Done! The panel will instantly detect all 280+ items and icons.
+
+==============================================================================
+
+
+
+==============================================================================
+***PT-BR*** DEADLOCK TOOLKIT - GUIA RÁPIDO DE INSTALAÇÃO
+==============================================================================
+
+1. INSTALAÇÃO AUTOMÁTICA (1 CLIQUE):
+   - Dê um duplo clique no arquivo: "Instalar_Deadlock_Scanner.bat"
+   - O instalador copiará os arquivos para a pasta de extensões do Adobe Premiere Pro
+     e ativará as permissões necessárias no Registro do Windows.
+
+2. ABRINDO NO PREMIERE PRO:
+   - Abra ou reinicie o Adobe Premiere Pro (versões 2025 ou 2026).
+   - No menu superior, vá em: Janela (Window) > Extensões (Extensions).
+   - Clique em: "Deadlock Toolkit".
+
+3. PACOTE DE ASSETS LOCAIS (PLANO FREE):
+   - Extraia a pasta "Deadlock_Assets" que você baixou do Google Drive em
+     qualquer local do seu computador (ex: Documentos ou C:\Deadlock_Assets).
+   - No painel da extensão no Premiere Pro, clique no ícone de pasta (📁)
+     ou no banner "Configurar Pasta" e selecione a pasta "Deadlock_Assets".
+   - Pronto! O painel detectará instantaneamente todos os 280+ itens e ícones.
+
+==============================================================================
+
+
+
+
+==============================================================================
+***ES*** DEADLOCK TOOLKIT - GUÍA RÁPIDA DE INSTALACIÓN
+==============================================================================
+
+1. INSTALACIÓN AUTOMÁTICA (1 CLIC):
+   - Haz doble clic en el archivo: «Instalar_Deadlock_Scanner.bat»
+   - El instalador copiará los archivos a la carpeta de extensiones de Adobe Premiere Pro
+     y activará los permisos necesarios en el Registro de Windows.
+
+2. ABRIR EN PREMIERE PRO:
+   - Abre o reinicia Adobe Premiere Pro (versiones 2025 o 2026).
+   - En el menú superior, ve a: Ventana (Window) > Extensiones (Extensions).
+   - Haz clic en: «Deadlock Toolkit».
+
+3. PAQUETE DE RECURSOS LOCALES (PLAN GRATUITO):
+   - Extrae la carpeta «Deadlock_Assets» que has descargado de Google Drive en
+     cualquier ubicación de tu ordenador (por ejemplo: Documentos o C:\Deadlock_Assets).
+   - En el panel de la extensión de Premiere Pro, haz clic en el icono de la carpeta (📁)
+     o en el banner «Configurar carpeta» y selecciona la carpeta «Deadlock_Assets».
+   - ¡Listo! El panel detectará al instante los más de 280 elementos e iconos.
+
+==============================================================================
+
+
+
+© 2026 Lucentry Shop. Todos los derechos reservados.

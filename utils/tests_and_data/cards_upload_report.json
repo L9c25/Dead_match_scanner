@@ -1,0 +1,986 @@
+[
+  {
+    "status": "ok",
+    "cat": "Spirit",
+    "originalFile": "Boundless_Spirit.png",
+    "targetKey": "item_icon/Spirit/BoundlessSpirit.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Spirit/BoundlessSpirit.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Spirit",
+    "originalFile": "Duration_Extender.png",
+    "targetKey": "item_icon/Spirit/DurationExtender.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Spirit/DurationExtender.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Spirit",
+    "originalFile": "Decay.png",
+    "targetKey": "item_icon/Spirit/Decay.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Spirit/Decay.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Spirit",
+    "originalFile": "Cursed_Relic.png",
+    "targetKey": "item_icon/Spirit/CursedRelic.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Spirit/CursedRelic.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Spirit",
+    "originalFile": "Bullet_Resist_Shredder.png",
+    "targetKey": "item_icon/Spirit/Bullet ResistShredder.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Spirit/Bullet%20ResistShredder.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Spirit",
+    "originalFile": "Arcane_Surge.png",
+    "targetKey": "item_icon/Spirit/ArcaneSurge.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Spirit/ArcaneSurge.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Spirit",
+    "originalFile": "Compress_Cooldown.png",
+    "targetKey": "item_icon/Spirit/CompressCooldown.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Spirit/CompressCooldown.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Spirit",
+    "originalFile": "Cold_Front.png",
+    "targetKey": "item_icon/Spirit/Cold Front.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Spirit/Cold%20Front.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Spirit",
+    "originalFile": "Knockdown.png",
+    "targetKey": "item_icon/Spirit/Knockdown.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Spirit/Knockdown.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Spirit",
+    "originalFile": "Extra_Spirit.png",
+    "targetKey": "item_icon/Spirit/ExtraSpirit.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Spirit/ExtraSpirit.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Spirit",
+    "originalFile": "Improved_Spirit.png",
+    "targetKey": "item_icon/Spirit/ImprovedSpirit.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Spirit/ImprovedSpirit.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Spirit",
+    "originalFile": "Extra_Charge.png",
+    "targetKey": "item_icon/Spirit/ExtraCharge.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Spirit/ExtraCharge.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Spirit",
+    "originalFile": "Greater_Expansion.png",
+    "targetKey": "item_icon/Spirit/GreaterExpansion.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Spirit/GreaterExpansion.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Spirit",
+    "originalFile": "Escalating_Exposure.png",
+    "targetKey": "item_icon/Spirit/EscalatingExposure.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Spirit/EscalatingExposure.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Spirit",
+    "originalFile": "Echo_Shard.png",
+    "targetKey": "item_icon/Spirit/Echo Shard.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Spirit/Echo%20Shard.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Spirit",
+    "originalFile": "Ethereal_Shift.png",
+    "targetKey": "item_icon/Spirit/EtherealShift.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Spirit/EtherealShift.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Spirit",
+    "originalFile": "Mystic_Vulnerability.png",
+    "targetKey": "item_icon/Spirit/MysticVulnerability.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Spirit/MysticVulnerability.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Spirit",
+    "originalFile": "Mystic_Expansion.png",
+    "targetKey": "item_icon/Spirit/MysticExpansion.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Spirit/MysticExpansion.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Spirit",
+    "originalFile": "Mystic_Reverb.png",
+    "targetKey": "item_icon/Spirit/MysticReverb.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Spirit/MysticReverb.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Spirit",
+    "originalFile": "Quicksilver_Reload.png",
+    "targetKey": "item_icon/Spirit/QuicksilverReload.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Spirit/QuicksilverReload.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Spirit",
+    "originalFile": "Rapid_Recharge.png",
+    "targetKey": "item_icon/Spirit/RapidRecharge.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Spirit/RapidRecharge.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Spirit",
+    "originalFile": "Magic_Carpet.png",
+    "targetKey": "item_icon/Spirit/MagicCarpet.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Spirit/MagicCarpet.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Spirit",
+    "originalFile": "Mystic_Burst.png",
+    "targetKey": "item_icon/Spirit/MysticBurst.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Spirit/MysticBurst.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Spirit",
+    "originalFile": "Mystic_Slow.png",
+    "targetKey": "item_icon/Spirit/MysticSlow.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Spirit/MysticSlow.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Spirit",
+    "originalFile": "Spirit_Strike.png",
+    "targetKey": "item_icon/Spirit/SpiritStrike.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Spirit/SpiritStrike.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Spirit",
+    "originalFile": "Refresher.png",
+    "targetKey": "item_icon/Spirit/Refresher.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Spirit/Refresher.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Spirit",
+    "originalFile": "Superior_Cooldown.png",
+    "targetKey": "item_icon/Spirit/SuperiorCooldown.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Spirit/SuperiorCooldown.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Spirit",
+    "originalFile": "Slowing_Hex.png",
+    "targetKey": "item_icon/Spirit/SlowingHex.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Spirit/SlowingHex.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Spirit",
+    "originalFile": "Superior_Duration.png",
+    "targetKey": "item_icon/Spirit/SuperiorDuration.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Spirit/SuperiorDuration.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Spirit",
+    "originalFile": "Silence_Wave.png",
+    "targetKey": "item_icon/Spirit/SilenceWave.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Spirit/SilenceWave.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Spirit",
+    "originalFile": "Rusted_Barrel.png",
+    "targetKey": "item_icon/Spirit/RustedBarrel.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Spirit/RustedBarrel.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Spirit",
+    "originalFile": "Spirit_Snatch.png",
+    "targetKey": "item_icon/Spirit/SpiritSnatch.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Spirit/SpiritSnatch.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Vitality",
+    "originalFile": "Bullet_Lifesteal.png",
+    "targetKey": "item_icon/Vitality/BulletLifesteal.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Vitality/BulletLifesteal.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Spirit",
+    "originalFile": "Tankbuster.png",
+    "targetKey": "item_icon/Spirit/Tankbuster.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Spirit/Tankbuster.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Vitality",
+    "originalFile": "Battle_Vest.png",
+    "targetKey": "item_icon/Vitality/Battle Vest.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Vitality/Battle%20Vest.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Spirit",
+    "originalFile": "Torment_Pulse.png",
+    "targetKey": "item_icon/Spirit/TormentPulse.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Spirit/TormentPulse.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Vitality",
+    "originalFile": "Bullet_Armor.png",
+    "targetKey": "item_icon/Vitality/BulletArmor.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Vitality/BulletArmor.png",
+    "matchType": "new_formatted_name"
+  },
+  {
+    "status": "ok",
+    "cat": "Spirit",
+    "originalFile": "Surge_of_Power.png",
+    "targetKey": "item_icon/Spirit/Surge ofPower.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Spirit/Surge%20ofPower.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Vitality",
+    "originalFile": "Bullet_Resilience.png",
+    "targetKey": "item_icon/Vitality/BulletResilience.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Vitality/BulletResilience.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Spirit",
+    "originalFile": "Suppressor.png",
+    "targetKey": "item_icon/Spirit/Suppressor.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Spirit/Suppressor.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Vitality",
+    "originalFile": "Enduring_Spirit.png",
+    "targetKey": "item_icon/Vitality/EnduringSpirit.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Vitality/EnduringSpirit.png",
+    "matchType": "new_formatted_name"
+  },
+  {
+    "status": "ok",
+    "cat": "Vitality",
+    "originalFile": "Colossus.png",
+    "targetKey": "item_icon/Vitality/Colossus.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Vitality/Colossus.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Vitality",
+    "originalFile": "Divine_Barrier.png",
+    "targetKey": "item_icon/Vitality/DivineBarrier.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Vitality/DivineBarrier.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Vitality",
+    "originalFile": "Debuff_Reducer.png",
+    "targetKey": "item_icon/Vitality/DebuffReducer.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Vitality/DebuffReducer.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Vitality",
+    "originalFile": "Enduring_Speed.png",
+    "targetKey": "item_icon/Vitality/EnduringSpeed.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Vitality/EnduringSpeed.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Vitality",
+    "originalFile": "Enchanters_Emblem.png",
+    "targetKey": "item_icon/Vitality/Enchanter_sEmblem.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Vitality/Enchanter_sEmblem.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Vitality",
+    "originalFile": "Dispel_Magic.png",
+    "targetKey": "item_icon/Vitality/DispelMagic.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Vitality/DispelMagic.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Vitality",
+    "originalFile": "Diviners_Kevlar.png",
+    "targetKey": "item_icon/Vitality/Diviner_sKevlar.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Vitality/Diviner_sKevlar.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Vitality",
+    "originalFile": "Extra_Stamina.png",
+    "targetKey": "item_icon/Vitality/ExtraStamina.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Vitality/ExtraStamina.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Vitality",
+    "originalFile": "Healbane.png",
+    "targetKey": "item_icon/Vitality/Healbane.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Vitality/Healbane.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Vitality",
+    "originalFile": "Healing_Booster.png",
+    "targetKey": "item_icon/Vitality/HealingBooster.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Vitality/HealingBooster.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Vitality",
+    "originalFile": "Fortitude.png",
+    "targetKey": "item_icon/Vitality/Fortitude.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Vitality/Fortitude.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Vitality",
+    "originalFile": "Grit.png",
+    "targetKey": "item_icon/Vitality/Grit.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Vitality/Grit.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Vitality",
+    "originalFile": "Extra_Health.png",
+    "targetKey": "item_icon/Vitality/ExtraHealth.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Vitality/ExtraHealth.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Vitality",
+    "originalFile": "Healing_Nova.png",
+    "targetKey": "item_icon/Vitality/HealingNova.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Vitality/HealingNova.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Vitality",
+    "originalFile": "Extra_Regen.png",
+    "targetKey": "item_icon/Vitality/ExtraRegen.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Vitality/ExtraRegen.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Vitality",
+    "originalFile": "Leech.png",
+    "targetKey": "item_icon/Vitality/Leech.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Vitality/Leech.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Vitality",
+    "originalFile": "Melee_Lifesteal.png",
+    "targetKey": "item_icon/Vitality/MeleeLifesteal.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Vitality/MeleeLifesteal.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Vitality",
+    "originalFile": "Infuser.png",
+    "targetKey": "item_icon/Vitality/Infuser.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Vitality/Infuser.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Vitality",
+    "originalFile": "Healing_Rite.png",
+    "targetKey": "item_icon/Vitality/HealingRite.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Vitality/HealingRite.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Vitality",
+    "originalFile": "Metal_Skin.png",
+    "targetKey": "item_icon/Vitality/Metal Skin.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Vitality/Metal%20Skin.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Vitality",
+    "originalFile": "Inhibitor.png",
+    "targetKey": "item_icon/Vitality/Inhibitor.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Vitality/Inhibitor.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Vitality",
+    "originalFile": "Lifestrike.png",
+    "targetKey": "item_icon/Vitality/Lifestrike.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Vitality/Lifestrike.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Vitality",
+    "originalFile": "Majestic_Leap.png",
+    "targetKey": "item_icon/Vitality/MajesticLeap.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Vitality/MajesticLeap.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Vitality",
+    "originalFile": "Phantom_Strike.png",
+    "targetKey": "item_icon/Vitality/PhantomStrike.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Vitality/PhantomStrike.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Vitality",
+    "originalFile": "Siphon_Bullets.png",
+    "targetKey": "item_icon/Vitality/SiphonBullets.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Vitality/SiphonBullets.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Vitality",
+    "originalFile": "Reactive_Barrier.png",
+    "targetKey": "item_icon/Vitality/ReactiveBarrier.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Vitality/ReactiveBarrier.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Vitality",
+    "originalFile": "Rescue_Beam.png",
+    "targetKey": "item_icon/Vitality/RescueBeam.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Vitality/RescueBeam.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Vitality",
+    "originalFile": "Restorative_Locket.png",
+    "targetKey": "item_icon/Vitality/RestorativeLocket.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Vitality/RestorativeLocket.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Vitality",
+    "originalFile": "Return_Fire.png",
+    "targetKey": "item_icon/Vitality/Return Fire.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Vitality/Return%20Fire.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Vitality",
+    "originalFile": "Spirit_Armor.png",
+    "targetKey": "item_icon/Vitality/SpiritArmor.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Vitality/SpiritArmor.png",
+    "matchType": "new_formatted_name"
+  },
+  {
+    "status": "ok",
+    "cat": "Vitality",
+    "originalFile": "Soul_Rebirth.png",
+    "targetKey": "item_icon/Vitality/SoulRebirth.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Vitality/SoulRebirth.png",
+    "matchType": "new_formatted_name"
+  },
+  {
+    "status": "ok",
+    "cat": "Vitality",
+    "originalFile": "Spirit_Resilience.png",
+    "targetKey": "item_icon/Vitality/SpiritResilience.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Vitality/SpiritResilience.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Vitality",
+    "originalFile": "Sprint_Boots.png",
+    "targetKey": "item_icon/Vitality/SprintBoots.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Vitality/SprintBoots.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Vitality",
+    "originalFile": "Warp_Stone.png",
+    "targetKey": "item_icon/Vitality/Warp Stone.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Vitality/Warp%20Stone.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Vitality",
+    "originalFile": "Veil_Walker.png",
+    "targetKey": "item_icon/Vitality/Veil Walker.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Vitality/Veil%20Walker.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Vitality",
+    "originalFile": "Spirit_Lifesteal.png",
+    "targetKey": "item_icon/Vitality/SpiritLifesteal.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Vitality/SpiritLifesteal.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Vitality",
+    "originalFile": "Vampiric_Burst.png",
+    "targetKey": "item_icon/Vitality/VampiricBurst.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Vitality/VampiricBurst.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Vitality",
+    "originalFile": "Stamina_Mastery.png",
+    "targetKey": "item_icon/Vitality/StaminaMastery.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Vitality/StaminaMastery.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Vitality",
+    "originalFile": "Unstoppable.png",
+    "targetKey": "item_icon/Vitality/Unstoppable.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Vitality/Unstoppable.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Weapon",
+    "originalFile": "Alchemical_Fire.png",
+    "targetKey": "item_icon/Weapon/AlchemicalFire.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Weapon/AlchemicalFire.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Weapon",
+    "originalFile": "Burst_Fire.png",
+    "targetKey": "item_icon/Weapon/Burst Fire.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Weapon/Burst%20Fire.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Weapon",
+    "originalFile": "Crushing_Fists.png",
+    "targetKey": "item_icon/Weapon/CrushingFists.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Weapon/CrushingFists.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Weapon",
+    "originalFile": "Close_Quarters.png",
+    "targetKey": "item_icon/Weapon/CloseQuarters.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Weapon/CloseQuarters.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Weapon",
+    "originalFile": "Berserker.png",
+    "targetKey": "item_icon/Weapon/Berserker.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Weapon/Berserker.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Weapon",
+    "originalFile": "Capacitor.png",
+    "targetKey": "item_icon/Weapon/Capacitor.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Weapon/Capacitor.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Weapon",
+    "originalFile": "Crippling_Headshot.png",
+    "targetKey": "item_icon/Weapon/CripplingHeadshot.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Weapon/CripplingHeadshot.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Weapon",
+    "originalFile": "Active_Reload.png",
+    "targetKey": "item_icon/Weapon/ActiveReload.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Weapon/ActiveReload.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Weapon",
+    "originalFile": "Glass_Cannon.png",
+    "targetKey": "item_icon/Weapon/GlassCannon.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Weapon/GlassCannon.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Weapon",
+    "originalFile": "Headshot_Booster.png",
+    "targetKey": "item_icon/Weapon/HeadshotBooster.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Weapon/HeadshotBooster.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Weapon",
+    "originalFile": "Fleetfoot.png",
+    "targetKey": "item_icon/Weapon/Fleetfoot.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Weapon/Fleetfoot.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Weapon",
+    "originalFile": "Cultist_Sacrifice.png",
+    "targetKey": "item_icon/Weapon/CultistSacrifice.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Weapon/CultistSacrifice.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Weapon",
+    "originalFile": "Frenzy.png",
+    "targetKey": "item_icon/Weapon/Frenzy.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Weapon/Frenzy.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Weapon",
+    "originalFile": "Escalating_Resilience.png",
+    "targetKey": "item_icon/Weapon/EscalatingResilience.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Weapon/EscalatingResilience.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Weapon",
+    "originalFile": "Extended_Magazine.png",
+    "targetKey": "item_icon/Weapon/ExtendedMagazine.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Weapon/ExtendedMagazine.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Weapon",
+    "originalFile": "Express_Shot.png",
+    "targetKey": "item_icon/Weapon/ExpressShot.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Weapon/ExpressShot.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Weapon",
+    "originalFile": "Intensifying_Magazine.png",
+    "targetKey": "item_icon/Weapon/IntensifyingMagazine.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Weapon/IntensifyingMagazine.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Weapon",
+    "originalFile": "Long_Range.png",
+    "targetKey": "item_icon/Weapon/LongRange.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Weapon/LongRange.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Weapon",
+    "originalFile": "Heroic_Aura.png",
+    "targetKey": "item_icon/Weapon/HeroicAura.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Weapon/HeroicAura.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Weapon",
+    "originalFile": "Hollow_Point.png",
+    "targetKey": "item_icon/Weapon/HollowPoint.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Weapon/HollowPoint.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Weapon",
+    "originalFile": "Hunters_Aura.png",
+    "targetKey": "item_icon/Weapon/Hunter_sAura.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Weapon/Hunter_sAura.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Weapon",
+    "originalFile": "Lucky_Shot.png",
+    "targetKey": "item_icon/Weapon/Lucky Shot.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Weapon/Lucky%20Shot.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Weapon",
+    "originalFile": "High-Velocity_Rounds.png",
+    "targetKey": "item_icon/Weapon/High-VelocityRounds.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Weapon/High-VelocityRounds.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Weapon",
+    "originalFile": "Kinetic_Dash.png",
+    "targetKey": "item_icon/Weapon/KineticDash.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Weapon/KineticDash.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Weapon",
+    "originalFile": "Restorative_Shot.png",
+    "targetKey": "item_icon/Weapon/RestorativeShot.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Weapon/RestorativeShot.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Weapon",
+    "originalFile": "Monster_Rounds.png",
+    "targetKey": "item_icon/Weapon/MonsterRounds.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Weapon/MonsterRounds.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Weapon",
+    "originalFile": "Melee_Charge.png",
+    "targetKey": "item_icon/Weapon/MeleeCharge.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Weapon/MeleeCharge.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Weapon",
+    "originalFile": "Rapid_Rounds.png",
+    "targetKey": "item_icon/Weapon/RapidRounds.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Weapon/RapidRounds.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Weapon",
+    "originalFile": "Point_Blank.png",
+    "targetKey": "item_icon/Weapon/PointBlank.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Weapon/PointBlank.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Weapon",
+    "originalFile": "Pristine_Emblem.png",
+    "targetKey": "item_icon/Weapon/PristineEmblem.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Weapon/PristineEmblem.png",
+    "matchType": "new_formatted_name"
+  },
+  {
+    "status": "ok",
+    "cat": "Weapon",
+    "originalFile": "Mystic_Shot.png",
+    "targetKey": "item_icon/Weapon/MysticShot.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Weapon/MysticShot.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Weapon",
+    "originalFile": "Ricochet.png",
+    "targetKey": "item_icon/Weapon/Ricochet.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Weapon/Ricochet.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Weapon",
+    "originalFile": "Shadow_Weave.png",
+    "targetKey": "item_icon/Weapon/ShadowWeave.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Weapon/ShadowWeave.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Weapon",
+    "originalFile": "Spirit_Rend.png",
+    "targetKey": "item_icon/Weapon/Spirit Rend.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Weapon/Spirit%20Rend.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Weapon",
+    "originalFile": "Slowing_Bullets.png",
+    "targetKey": "item_icon/Weapon/SlowingBullets.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Weapon/SlowingBullets.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Weapon",
+    "originalFile": "Swift_Striker.png",
+    "targetKey": "item_icon/Weapon/SwiftStriker.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Weapon/SwiftStriker.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Weapon",
+    "originalFile": "Spiritual_Overflow.png",
+    "targetKey": "item_icon/Weapon/SpiritualOverflow.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Weapon/SpiritualOverflow.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Weapon",
+    "originalFile": "Silencer.png",
+    "targetKey": "item_icon/Weapon/Silencer.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Weapon/Silencer.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Weapon",
+    "originalFile": "Spirit_Shredder.png",
+    "targetKey": "item_icon/Weapon/SpiritShredder.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Weapon/SpiritShredder.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Weapon",
+    "originalFile": "Sharpshooter.png",
+    "targetKey": "item_icon/Weapon/Sharpshooter.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Weapon/Sharpshooter.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Weapon",
+    "originalFile": "Titanic_Magazine.png",
+    "targetKey": "item_icon/Weapon/TitanicMagazine.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Weapon/TitanicMagazine.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Weapon",
+    "originalFile": "Tesla_Bullets.png",
+    "targetKey": "item_icon/Weapon/TeslaBullets.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Weapon/TeslaBullets.png",
+    "matchType": "exact_r2_match"
+  },
+  {
+    "status": "ok",
+    "cat": "Weapon",
+    "originalFile": "Toxic_Bullets.png",
+    "targetKey": "item_icon/Weapon/ToxicBullets.png",
+    "publicUrl": "https://pub-1262c312111a4da68f9d930a896858bf.r2.dev/item_icon/Weapon/ToxicBullets.png",
+    "matchType": "exact_r2_match"
+  }
+]

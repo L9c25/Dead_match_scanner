@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deadlock Toolkit</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/i18n.js"></script>
+</head>
+
+<body>
+    <div id="app">
+        <!-- Panel Header -->
+        <header class="panel-header">
+            <div class="brand-row">
+                <div class="logo-badge">
+                    <img src="assets/deadlock-logo.png" class="brand-deadlock-logo" alt="Deadlock" />
+                    <h1>Deadlock Toolkit</h1>
+                </div>
+
+                <div class="header-right-actions">
+                    <button type="button" id="header-settings-btn" class="header-action-btn gear-btn"
+                        title="Configurações Gerais (Fontes, Idioma, Pro, Pastas)">
+                        <span class="gear-icon">⚙️</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Search Form -->
+            <form id="search-form" class="search-form">
+                <div class="input-wrapper">
+                    <span class="search-icon">🔍</span>
+                    <input type="text" id="match-id-input" placeholder="Digite ou cole o ID da Partida..."
+                        autocomplete="off" />
+                </div>
+                <button type="submit" id="search-btn" class="primary-btn">
+                    <span id="search-btn-text">Buscar</span>
+                </button>
+            </form>
+
+            <!-- Search History (Histórico de Partidas Pesquisadas) -->
+            <div class="search-history-container" id="search-history-container" style="display: none;">
+                <div class="history-header">
+                    <span class="chip-label" id="i18n-recent-matches">🕒 Partidas Recentes:</span>
+                    <button type="button" id="clear-history-btn" class="clear-history-btn"
+                        title="Limpar Histórico">Limpar ✕</button>
+                </div>
+                <div class="history-chips" id="history-chips-list"></div>
+            </div>
+        </header>
+
+        <!-- General Settings Card (Toggled via Gear ⚙️ button) -->
+        <div id="general-settings-card" class="settings-drawer-card" style="display: none;">
+            <div class="settings-drawer-header">
+                <div style="display: flex; align-items: center; gap: 8px;">
+                    <span style="font-size: 14px;">⚙️</span>
+                    <strong id="i18n-settings-title">Configurações Gerais</strong>
+                </div>
+                <button type="button" id="btn-close-settings-card" class="drawer-close-btn" title="Fechar">✕</button>
+            </div>
+
+            <div class="settings-drawer-grid">
+                <!-- Font Scale Control -->
+                <div class="setting-drawer-item">
+                    <label class="setting-drawer-label" id="i18n-font-size-label">Tamanho das Fontes</label>
+                    <div class="font-scale-control">
+                        <button type="button" id="btn-font-scale-down" class="scale-btn" title="Diminuir Fonte">➖</button>
+                        <span id="font-scale-value" class="scale-value">100%</span>
+                        <button type="button" id="btn-font-scale-up" class="scale-btn" title="Aumentar Fonte">➕</button>
+                        <button type="button" id="btn-font-scale-reset" class="scale-reset-btn" title="Resetar para 100%">100%</button>
+                    </div>
+                </div>
+
+                <!-- Language Selector -->
+                <div class="setting-drawer-item">
+                    <label class="setting-drawer-label" id="i18n-language-label">Idioma da Interface</label>
+                    <select id="lang-select" class="setting-select lang-select" title="Language / Idioma / Язык">
+                        <option value="pt-BR">🇧🇷 Português</option>
+                        <option value="en">🇺🇸 English</option>
+                        <option value="es">🇪🇸 Español</option>
+                        <option value="ru">🇷🇺 Русский</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Custom Marker Colors Card inside Settings Drawer -->
+            <div class="settings-drawer-colors" style="border-top: 1px solid var(--border-subtle); padding-top: 10px;">
+                <div class="section-title" style="cursor: pointer; user-select: none; margin-bottom: 8px;" id="toggle-colors-header"
+                    title="Clique para expandir/recolher">
+                    <div style="display: flex; align-items: center; gap: 6px;">
+                        <span id="colors-toggle-icon"
+                            style="font-size: 10px; color: var(--text-dim); transition: transform 0.2s ease; display: inline-block;">▶</span>
+                        <span id="i18n-colors-title" style="font-size: 11px; font-weight: 700;">🎨 Cores dos Marcadores</span>
+                        <span class="badge-custom" id="i18n-colors-badge">Personalizável</span>
+                    </div>
+                    <div style="display: flex; align-items: center; gap: 8px;">
+                        <button type="button" id="reset-colors-btn" class="btn-text-action"
+                            title="Restaurar cores originais do plugin" style="display: none;">Restaurar Padrão</button>
+                    </div>
+                </div>
+
+                <div class="colors-grid" id="colors-config-panel" style="display: none;">
+                    <div class="color-item-row">
+                        <div class="color-item-info">
+                            <span class="color-preview-dot" id="dot-color-t0"></span>
+                            <span id="i18n-label-t0">⚡ Desbloqueio (T0)</span>
+                        </div>
+                        <select id="color-select-t0" class="color-select" data-type="t0"></select>
+                    </div>
+
+                    <div class="color-item-row">
+                        <div class="color-item-info">
+                            <span class="color-preview-dot" id="dot-color-t1"></span>
+                            <span id="i18n-label-t1">⚡ Tier 1 (T1)</span>
+                        </div>
+                        <select id="color-select-t1" class="color-select" data-type="t1"></select>
+                    </div>
+
+                    <div class="color-item-row">
+                        <div class="color-item-info">
+                            <span class="color-preview-dot" id="dot-color-t2"></span>
+                            <span id="i18n-label-t2">⚡ Tier 2 (T2)</span>
+                        </div>
+                        <select id="color-select-t2" class="color-select" data-type="t2"></select>
+                    </div>
+
+                    <div class="color-item-row">
+                        <div class="color-item-info">
+                            <span class="color-preview-dot" id="dot-color-t3"></span>
+                            <span id="i18n-label-t3">⚡ Tier 3 (T3)</span>
+                        </div>
+                        <select id="color-select-t3" class="color-select" data-type="t3"></select>
+                    </div>
+
+                    <div class="color-item-row">
+                        <div class="color-item-info">
+                            <span class="color-preview-dot" id="dot-color-kill"></span>
+                            <span id="i18n-label-kill">💀 Abates (Kills)</span>
+                        </div>
+                        <select id="color-select-kill" class="color-select" data-type="kill"></select>
+                    </div>
+
+                    <div class="color-item-row">
+                        <div class="color-item-info">
+                            <span class="color-preview-dot" id="dot-color-assist"></span>
+                            <span id="i18n-label-assist">🤝 Assistências (Assists)</span>
+                        </div>
+                        <select id="color-select-assist" class="color-select" data-type="assist"></select>
+                    </div>
+
+                    <div class="color-item-row">
+                        <div class="color-item-info">
+                            <span class="color-preview-dot" id="dot-color-death"></span>
+                            <span id="i18n-label-death">☠️ Mortes (Deaths)</span>
+                        </div>
+                        <select id="color-select-death" class="color-select" data-type="death"></select>
+                    </div>
+
+                    <div class="color-item-row">
+                        <div class="color-item-info">
+                            <span class="color-preview-dot" id="dot-color-item"></span>
+                            <span id="i18n-label-item">🛒 Itens Comprados</span>
+                        </div>
+                        <select id="color-select-item" class="color-select" data-type="item"></select>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Update Notification Bar (Cloud Auto-Check) -->
+        <div id="update-notification-bar"
+            style="display: none; background: linear-gradient(135deg, rgba(34, 197, 94, 0.15), rgba(16, 185, 129, 0.08)); border: 1px solid rgba(34, 197, 94, 0.35); border-radius: var(--radius-sm); padding: 8px 12px; align-items: center; justify-content: space-between; font-size: 11px;">
+            <div style="display: flex; align-items: center; gap: 6px; color: #86efac;">
+                <span>🚀</span>
+                <span id="update-msg-text">Nova atualização disponível!</span>
+            </div>
+            <a id="btn-download-update"
+                href="https://pub-3d2e50a01e2e4fd5af92763dd84d26a6.r2.dev/Deadlock_Toolkit_Latest.zip"
+                target="_blank"
+                onclick="if(window.openExternalUrl){event.preventDefault();window.openExternalUrl(this.href);return false;}"
+                style="background: #22c55e; color: #0b0e14; padding: 4px 10px; border-radius: 4px; font-weight: 700; text-decoration: none; font-size: 10px; transition: all 0.2s ease; cursor: pointer;">
+                Baixar
+            </a>
+        </div>
+
+        <!-- Hero Selection Section (Hidden until loaded) -->
+        <section id="heroes-section" class="heroes-container stage-accordion-card active" style="display: none;">
+            <div class="stage-accordion-header" id="toggle-heroes-header" title="Clique para expandir/recolher heróis">
+                <div style="display: flex; align-items: center; gap: 8px;">
+                    <span class="accordion-chevron" id="heroes-toggle-icon">▼</span>
+                    <span class="stage-title" id="i18n-select-hero-title">Heróis da Partida</span>
+                </div>
+                <span class="stage-badge" id="i18n-players-count">12 Jogadores</span>
+            </div>
+
+            <div id="heroes-collapsible-body" class="stage-accordion-body">
+                <!-- Sapphire Flame Team -->
+                <div class="team-block team-sapphire">
+                    <div class="team-header">
+                        <span id="i18n-team-sapphire-header">The Sapphire Flame (Time 1)</span>
+                    </div>
+                    <div class="heroes-grid" id="sapphire-heroes-grid"></div>
+                </div>
+
+                <!-- Amber Hand Team -->
+                <div class="team-block team-amber">
+                    <div class="team-header">
+                        <span id="i18n-team-amber-header">The Amber Hand (Time 2)</span>
+                    </div>
+                    <div class="heroes-grid" id="amber-heroes-grid"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Selected Hero Details & Timeline (Hidden until hero selected) -->
+        <section id="hero-details-section" class="hero-details-container" style="display: none;">
+            <!-- Hero Header Profile -->
+            <div class="hero-details-header" id="toggle-timeline-header" style="cursor: pointer; user-select: none;"
+                title="Clique para expandir/recolher lista de ações">
+                <div class="hero-profile">
+                    <img id="selected-hero-avatar" class="hero-profile-avatar" src="" alt="Hero" />
+                    <div>
+                        <div class="hero-profile-name" id="selected-hero-name">Paige</div>
+                        <div class="hero-profile-stats" id="selected-hero-stats">KDA: 0/0/0 • Souls: 0</div>
+                    </div>
+                </div>
+                <div style="text-align: right; display: flex; flex-direction: column; align-items: flex-end; gap: 2px;">
+                    <div style="display: flex; align-items: center; gap: 4px;">
+                        <span id="timeline-toggle-icon"
+                            style="font-size: 10px; color: var(--text-dim); transition: transform 0.2s ease;">▶</span>
+                        <span style="font-size: 10px; color: var(--text-dim);" id="i18n-total-actions-label">Total
+                            Ações</span>
+                    </div>
+                    <div style="font-size: 13px; font-weight: 700; color: var(--text-gold);" id="total-actions-count">0
+                    </div>
+                </div>
+            </div>
+
+            <!-- Timeline Collapsible Container (Recolhido por Padrão) -->
+            <div id="timeline-events-container" style="display: none; flex-direction: column; gap: 8px;">
+                <!-- Tabs Nav -->
+                <div class="tabs-nav">
+                    <button type="button" class="tab-btn active" data-tab="all">
+                        <span id="i18n-tab-all">Todas</span>
+                        <span class="tab-count" id="tab-count-all">0</span>
+                    </button>
+                    <button type="button" class="tab-btn" data-tab="abilities">
+                        <span id="i18n-tab-abilities">⚡ Habilidades</span>
+                        <span class="tab-count" id="tab-count-abilities">0</span>
+                    </button>
+                    <button type="button" class="tab-btn" data-tab="items">
+                        <span id="i18n-tab-items">🛒 Itens</span>
+                        <span class="tab-count" id="tab-count-items">0</span>
+                    </button>
+                    <button type="button" class="tab-btn" data-tab="combat">
+                        <span id="i18n-tab-combat">⚔️ Combate (K/D/A)</span>
+                        <span class="tab-count" id="tab-count-combat">0</span>
+                    </button>
+                </div>
+
+                <!-- Timeline List -->
+                <div class="timeline-list" id="timeline-items-list"></div>
+            </div>
+
+
+            <!-- Pause Compensation Settings (Accordion Card) -->
+            <div class="settings-card pause-card stage-accordion-card" id="pause-card">
+                <div class="stage-accordion-header" id="toggle-pause-header" style="cursor: pointer;" title="Clique para expandir/recolher">
+                    <div style="display: flex; align-items: center; gap: 8px;">
+                        <span class="accordion-chevron" id="pause-toggle-icon">▶</span>
+                        <span class="stage-title" id="i18n-pause-title">⏸️ Compensação de Pausas no Jogo</span>
+                        <span class="badge-feature">Smart Sync</span>
+                    </div>
+                    <span style="font-size: 10px; color: #4ade80;" id="pause-status-badge">Ativo</span>
+                </div>
+
+                <div id="pause-collapsible-body" class="stage-accordion-body" style="display: none;">
+                    <div class="settings-grid">
+                        <div class="setting-group">
+                            <label class="setting-label" for="pause-source-select" id="i18n-pause-source-label">Origem dos Marcadores de Pausa</label>
+                            <select id="pause-source-select" class="setting-select">
+                                <option value="both" selected>🔄 Ambos (Timeline e Vídeo)</option>
+                                <option value="clip">🎬 Vídeo Selecionado (Clipe)</option>
+                                <option value="sequence">⏱️ Linha de Tempo (Sequência)</option>
+                                <option value="disabled">🚫 Desativado (Sem compensação)</option>
+                            </select>
+                        </div>
+
+                        <div class="setting-group">
+                            <label class="setting-label" for="pause-criteria-select" id="i18n-pause-criteria-label">Reconhecer como Pausa</label>
+                            <select id="pause-criteria-select" class="setting-select">
+                                <option value="any" selected>Qualquer Marcador (Com ou Sem Duração)</option>
+                                <option value="all_spanned">Marcadores com Duração (Início ➔ Fim)</option>
+                                <option value="keyword">Marcador com Nome "Pausa" / "Pause"</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="tip-box pause-tip" id="i18n-pause-tip">
+                        💡 <strong>Como funciona a pausa:</strong> No Premiere Pro, crie um marcador com duração (arrastando
+                        as pontas do marker) cobrindo o período da pausa na timeline ou no clipe de vídeo. O plugin ignora o
+                        tempo de pausa e ajusta a sincronia dos itens, habilidades e abates automaticamente!
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Premiere Pro Settings (Accordion Card) -->
+            <div class="settings-card premiere-card stage-accordion-card active" id="premiere-settings-card">
+                <div class="stage-accordion-header" id="toggle-premiere-header" style="cursor: pointer;" title="Clique para expandir/recolher">
+                    <div style="display: flex; align-items: center; gap: 8px;">
+                        <span class="accordion-chevron" id="premiere-toggle-icon">▼</span>
+                        <span class="stage-title" id="i18n-premiere-settings-title">Configurações no Premiere Pro</span>
+                    </div>
+                    <span class="stage-badge" style="color: var(--text-gold);">v25.4+</span>
+                </div>
+
+                <div id="premiere-settings-collapsible-body" class="stage-accordion-body">
+                    <div class="settings-grid">
+                        <div class="setting-group">
+                            <label class="setting-label" for="marker-target-select" id="i18n-marker-target-label">Destino dos Marcadores</label>
+                            <select id="marker-target-select" class="setting-select">
+                                <option value="clip" selected>🎬 No Vídeo Selecionado (Clipe)</option>
+                                <option value="both">🎬 No Vídeo + ⏱️ Linha de Tempo (Ambos)</option>
+                                <option value="sequence">⏱️ Apenas na Linha de Tempo (Sequência)</option>
+                            </select>
+                        </div>
+
+                        <div class="setting-group">
+                            <label class="setting-label" for="target-track-select" id="i18n-target-track-label">Camada de Vídeo (Itens)</label>
+                            <select id="target-track-select" class="setting-select">
+                                <option value="1">Camada 1 (V1)</option>
+                                <option value="2" selected>Camada 2 (V2 - Padrão)</option>
+                                <option value="3">Camada 3 (V3)</option>
+                                <option value="4">Camada 4 (V4)</option>
+                                <option value="5">Camada 5 (V5)</option>
+                                <option value="6">Camada 6 (V6)</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="settings-grid">
+                        <div class="setting-group">
+                            <label class="setting-label" for="offset-mode-select" id="i18n-offset-mode-label">Ponto de Início da Partida</label>
+                            <select id="offset-mode-select" class="setting-select">
+                                <option value="playhead" selected>📍 Posição Atual da Agulha (Playhead) (Recomendado)</option>
+                                <option value="clip_start">🎬 Início do Vídeo Selecionado</option>
+                                <option value="zero">⏱️ Início da Timeline (00:00:00)</option>
+                            </select>
+                        </div>
+
+                        <div class="setting-group">
+                            <label class="setting-label" for="game-start-time-input" id="i18n-game-start-time-label">Coletar Dados a Partir de (Jogo)</label>
+                            <div style="display: flex; gap: 6px; align-items: center;">
+                                <input type="text" id="game-start-time-input" class="setting-input" value="00:00"
+                                    placeholder="00:00 (ex: 00:10)"
+                                    style="font-family: monospace; font-size: 11px; font-weight: 700; text-align: center; letter-spacing: 1px; color: #f6c042;" />
+                                <button type="button" id="reset-start-time-btn" class="quick-zero-btn"
+                                    title="Resetar para 00:00">00:00</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="settings-grid" style="align-items: center;">
+                        <div class="setting-group">
+                            <label class="setting-label" for="item-style-select" id="i18n-item-style-label">Estilo Visual dos Itens</label>
+                            <select id="item-style-select" class="setting-select">
+                                <option value="card_pt_new" selected>🃏 Item Card (Atual) - PT-BR</option>
+                                <option value="card_en_new">🃏 Item Card (Atual) - EN</option>
+                                <option value="card_pt_old">🃏 Item Card (Antigo) - PT-BR</option>
+                                <option value="card_en_old">🃏 Item Card (Antigo) - EN</option>
+                                <option value="description_en">📜 Item Description - EN</option>
+                                <option value="both">✨ Inserir Ambos (Item Card + Item Description)</option>
+                            </select>
+                        </div>
+
+                        <div class="setting-group">
+                            <label class="setting-label" for="item-duration-input" id="i18n-png-duration-label">Duração do PNG (s)</label>
+                            <input type="number" id="item-duration-input" class="setting-input" value="3.0" min="0.5" max="60.0" step="0.5" />
+                        </div>
+                    </div>
+
+                    <!-- Secondary Track Selector (Visible only when 'both' is selected) -->
+                    <div class="settings-grid" id="secondary-track-group" style="display: none; margin-top: 4px;">
+                        <div class="setting-group" style="width: 100%;">
+                            <label class="setting-label" for="secondary-track-select" id="i18n-secondary-track-label" style="color: #86efac;">
+                                📜 Camada do 2º Item (Item Description)
+                            </label>
+                            <select id="secondary-track-select" class="setting-select" style="border-color: rgba(34, 197, 94, 0.4);">
+                                <option value="1">Camada 1 (V1)</option>
+                                <option value="2">Camada 2 (V2)</option>
+                                <option value="3" selected>Camada 3 (V3 - Recomendado para Cards)</option>
+                                <option value="4">Camada 4 (V4)</option>
+                                <option value="5">Camada 5 (V5)</option>
+                                <option value="6">Camada 6 (V6)</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="settings-grid" style="align-items: center; margin-top: 4px;">
+                        <div class="setting-group" style="width: 100%;">
+                            <span id="game-start-time-status"
+                                style="font-size: 10px; color: #94a3b8; line-height: 1.2; padding: 5px 8px; background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.07); border-radius: 4px; display: flex; align-items: center; gap: 4px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">
+                                ⏱️ <span id="game-start-time-status-text">Coletando dados desde o início (00:00)</span>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="checkbox-group">
+                        <label class="checkbox-item">
+                            <input type="checkbox" id="check-tier-markers" checked />
+                            <span id="i18n-check-tier">⚡ Criar marcadores para <strong>Upgrades de Tier (T1, T2, T3)</strong></span>
+                        </label>
+                        <label class="checkbox-item">
+                            <input type="checkbox" id="check-kill-markers" checked />
+                            <span id="i18n-check-kill">💀 Criar marcadores para <strong>Kills / Abates</strong></span>
+                        </label>
+                        <label class="checkbox-item">
+                            <input type="checkbox" id="check-assist-markers" checked />
+                            <span id="i18n-check-assist">🤝 Criar marcadores para <strong>Assistências / Fights</strong></span>
+                        </label>
+                        <label class="checkbox-item">
+                            <input type="checkbox" id="check-death-markers" checked />
+                            <span id="i18n-check-death">☠️ Criar marcadores para <strong>Mortes</strong></span>
+                        </label>
+                        <label class="checkbox-item">
+                            <input type="checkbox" id="check-insert-items" checked />
+                            <span id="i18n-check-insert-items">🛒 Inserir PNGs dos <strong>Itens Comprados</strong> na camada</span>
+                        </label>
+                        <label class="checkbox-item">
+                            <input type="checkbox" id="check-unlock-markers" />
+                            <span id="i18n-check-unlock">🟢 Criar marcadores para <strong>Desbloqueio Inicial (T0)</strong></span>
+                        </label>
+                        <label class="checkbox-item">
+                            <input type="checkbox" id="check-item-markers" />
+                            <span id="i18n-check-item-markers">🏷️ Criar marcadores para compras de itens também</span>
+                        </label>
+                    </div>
+
+                    <!-- Marker Color Legend -->
+                    <div class="color-legend" id="dynamic-color-legend">
+                        <!-- Injected dynamically by JS based on user preferences -->
+                    </div>
+
+                    <div class="tip-box" id="i18n-premiere-tip"
+                        style="margin-top: 8px; padding: 6px 10px; background: rgba(59, 130, 246, 0.1); border-radius: 4px; font-size: 10px; color: #93c5fd; line-height: 1.4;">
+                        💡 <strong>Dica:</strong> Marcadores de clipe aparecem diretamente na barra do vídeo na timeline e no Source Monitor. Certifique-se de que a faixa V1 tenha altura suficiente para visualizá-los.
+                    </div>
+
+                    <!-- Sync Action Button -->
+                    <button type="button" id="sync-premiere-btn" class="sync-btn">
+                        <span id="i18n-sync-btn-text">⚡ Aplicar na Timeline do Premiere</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- App Footer with Relocated Match Summary on the Right -->
+        <footer id="app-footer" class="app-footer">
+            <div class="footer-left">
+                <span class="footer-brand-tag">Deadlock Toolkit</span>
+                <span class="footer-version-tag">v1.1.0</span>
+            </div>
+
+            <!-- Match Summary (Relocated from Print 3 to right side of footer) -->
+            <div class="footer-right" id="footer-match-summary" style="display: none;">
+                <div class="footer-meta-item">
+                    <span class="footer-meta-label" id="i18n-match-label">Partida</span>
+                    <strong class="footer-meta-val" id="summary-match-id">#0</strong>
+                </div>
+                <div class="footer-meta-sep">•</div>
+                <div class="footer-meta-item">
+                    <span class="footer-meta-label" id="i18n-duration-label">Duração</span>
+                    <strong class="footer-meta-val" id="summary-duration">00:00</strong>
+                </div>
+                <div class="footer-meta-sep">•</div>
+                <div class="footer-meta-item">
+                    <span class="footer-meta-label" id="i18n-result-label">Resultado</span>
+                    <strong class="footer-meta-val winner-val" id="summary-winner">The Sapphire Flame</strong>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Notification Toast (Outside #app so it remains unblurred) -->
+    <div id="notification-toast" class="notification">
+        <span id="notif-icon">🔔</span>
+        <span id="notif-message">Mensagem</span>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/CSInterface.js"></script>
+    <script src="js/i18n.js"></script>
+    <script src="js/heroesManager.js"></script>
+    <script src="js/itemsManager.js"></script>
+    <script src="js/licenseManager.js"></script>
+    <script src="js/deadlockApi.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

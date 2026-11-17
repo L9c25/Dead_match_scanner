@@ -1,0 +1,777 @@
+[
+  {
+    "name": "Extra Charge",
+    "rel": "Spirit\\Tier 1\\Extra Charge.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Spirit\\Tier 1\\Extra Charge.png"
+  },
+  {
+    "name": "Extra Spirit",
+    "rel": "Spirit\\Tier 1\\Extra Spirit.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Spirit\\Tier 1\\Extra Spirit.png"
+  },
+  {
+    "name": "Golden Goose Egg",
+    "rel": "Spirit\\Tier 1\\Golden Goose Egg.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Spirit\\Tier 1\\Golden Goose Egg.png"
+  },
+  {
+    "name": "Mystic Burst",
+    "rel": "Spirit\\Tier 1\\Mystic Burst.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Spirit\\Tier 1\\Mystic Burst.png"
+  },
+  {
+    "name": "Mystic Expansion",
+    "rel": "Spirit\\Tier 1\\Mystic Expansion.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Spirit\\Tier 1\\Mystic Expansion.png"
+  },
+  {
+    "name": "Mystic Regeneration",
+    "rel": "Spirit\\Tier 1\\Mystic Regeneration.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Spirit\\Tier 1\\Mystic Regeneration.png"
+  },
+  {
+    "name": "Rusted Barrel",
+    "rel": "Spirit\\Tier 1\\Rusted Barrel.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Spirit\\Tier 1\\Rusted Barrel.png"
+  },
+  {
+    "name": "Spirit Strike",
+    "rel": "Spirit\\Tier 1\\Spirit Strike.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Spirit\\Tier 1\\Spirit Strike.png"
+  },
+  {
+    "name": "Arcane Surge",
+    "rel": "Spirit\\Tier 2\\Arcane Surge.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Spirit\\Tier 2\\Arcane Surge.png"
+  },
+  {
+    "name": "Bullet Resist Shredder",
+    "rel": "Spirit\\Tier 2\\Bullet Resist Shredder.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Spirit\\Tier 2\\Bullet Resist Shredder.png"
+  },
+  {
+    "name": "Cold Front",
+    "rel": "Spirit\\Tier 2\\Cold Front.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Spirit\\Tier 2\\Cold Front.png"
+  },
+  {
+    "name": "Compress Cooldown",
+    "rel": "Spirit\\Tier 2\\Compress Cooldown.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Spirit\\Tier 2\\Compress Cooldown.png"
+  },
+  {
+    "name": "Duration Extender",
+    "rel": "Spirit\\Tier 2\\Duration Extender.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Spirit\\Tier 2\\Duration Extender.png"
+  },
+  {
+    "name": "Improved Spirit",
+    "rel": "Spirit\\Tier 2\\Improved Spirit.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Spirit\\Tier 2\\Improved Spirit.png"
+  },
+  {
+    "name": "Mystic Slow",
+    "rel": "Spirit\\Tier 2\\Mystic Slow.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Spirit\\Tier 2\\Mystic Slow.png"
+  },
+  {
+    "name": "Mystic Vulnerability",
+    "rel": "Spirit\\Tier 2\\Mystic Vulnerability.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Spirit\\Tier 2\\Mystic Vulnerability.png"
+  },
+  {
+    "name": "Quicksilver Reload",
+    "rel": "Spirit\\Tier 2\\Quicksilver Reload.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Spirit\\Tier 2\\Quicksilver Reload.png"
+  },
+  {
+    "name": "Slowing Hex",
+    "rel": "Spirit\\Tier 2\\Slowing Hex.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Spirit\\Tier 2\\Slowing Hex.png"
+  },
+  {
+    "name": "Spirit Sap",
+    "rel": "Spirit\\Tier 2\\Spirit Sap.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Spirit\\Tier 2\\Spirit Sap.png"
+  },
+  {
+    "name": "Suppressor",
+    "rel": "Spirit\\Tier 2\\Suppressor.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Spirit\\Tier 2\\Suppressor.png"
+  },
+  {
+    "name": "Decay",
+    "rel": "Spirit\\Tier 3\\Decay.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Spirit\\Tier 3\\Decay.png"
+  },
+  {
+    "name": "Disarming Hex",
+    "rel": "Spirit\\Tier 3\\Disarming Hex.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Spirit\\Tier 3\\Disarming Hex.png"
+  },
+  {
+    "name": "Greater Expansion",
+    "rel": "Spirit\\Tier 3\\Greater Expansion.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Spirit\\Tier 3\\Greater Expansion.png"
+  },
+  {
+    "name": "Knockdown",
+    "rel": "Spirit\\Tier 3\\Knockdown.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Spirit\\Tier 3\\Knockdown.png"
+  },
+  {
+    "name": "Radiant Regeneration",
+    "rel": "Spirit\\Tier 3\\Radiant Regeneration.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Spirit\\Tier 3\\Radiant Regeneration.png"
+  },
+  {
+    "name": "Rapid Recharge",
+    "rel": "Spirit\\Tier 3\\Rapid Recharge.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Spirit\\Tier 3\\Rapid Recharge.png"
+  },
+  {
+    "name": "Silence Wave",
+    "rel": "Spirit\\Tier 3\\Silence Wave.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Spirit\\Tier 3\\Silence Wave.png"
+  },
+  {
+    "name": "Spirit Snatch",
+    "rel": "Spirit\\Tier 3\\Spirit Snatch.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Spirit\\Tier 3\\Spirit Snatch.png"
+  },
+  {
+    "name": "Superior Cooldown",
+    "rel": "Spirit\\Tier 3\\Superior Cooldown.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Spirit\\Tier 3\\Superior Cooldown.png"
+  },
+  {
+    "name": "Superior Duration",
+    "rel": "Spirit\\Tier 3\\Superior Duration.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Spirit\\Tier 3\\Superior Duration.png"
+  },
+  {
+    "name": "Surge of Power",
+    "rel": "Spirit\\Tier 3\\Surge of Power.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Spirit\\Tier 3\\Surge of Power.png"
+  },
+  {
+    "name": "Tankbuster",
+    "rel": "Spirit\\Tier 3\\Tankbuster.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Spirit\\Tier 3\\Tankbuster.png"
+  },
+  {
+    "name": "Torment Pulse",
+    "rel": "Spirit\\Tier 3\\Torment Pulse.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Spirit\\Tier 3\\Torment Pulse.png"
+  },
+  {
+    "name": "Arctic Blast",
+    "rel": "Spirit\\Tier 4\\Arctic Blast.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Spirit\\Tier 4\\Arctic Blast.png"
+  },
+  {
+    "name": "Boundless Spirit",
+    "rel": "Spirit\\Tier 4\\Boundless Spirit.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Spirit\\Tier 4\\Boundless Spirit.png"
+  },
+  {
+    "name": "Cursed Relic",
+    "rel": "Spirit\\Tier 4\\Cursed Relic.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Spirit\\Tier 4\\Cursed Relic.png"
+  },
+  {
+    "name": "Echo Shard",
+    "rel": "Spirit\\Tier 4\\Echo Shard.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Spirit\\Tier 4\\Echo Shard.png"
+  },
+  {
+    "name": "Escalating Exposure",
+    "rel": "Spirit\\Tier 4\\Escalating Exposure.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Spirit\\Tier 4\\Escalating Exposure.png"
+  },
+  {
+    "name": "Ethereal Shift",
+    "rel": "Spirit\\Tier 4\\Ethereal Shift.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Spirit\\Tier 4\\Ethereal Shift.png"
+  },
+  {
+    "name": "Focus Lens",
+    "rel": "Spirit\\Tier 4\\Focus Lens.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Spirit\\Tier 4\\Focus Lens.png"
+  },
+  {
+    "name": "Lightning Scroll",
+    "rel": "Spirit\\Tier 4\\Lightning Scroll.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Spirit\\Tier 4\\Lightning Scroll.png"
+  },
+  {
+    "name": "Magic Carpet",
+    "rel": "Spirit\\Tier 4\\Magic Carpet.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Spirit\\Tier 4\\Magic Carpet.png"
+  },
+  {
+    "name": "Mercurial Magnum",
+    "rel": "Spirit\\Tier 4\\Mercurial Magnum.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Spirit\\Tier 4\\Mercurial Magnum.png"
+  },
+  {
+    "name": "Mystic Reverb",
+    "rel": "Spirit\\Tier 4\\Mystic Reverb.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Spirit\\Tier 4\\Mystic Reverb.png"
+  },
+  {
+    "name": "Refresher",
+    "rel": "Spirit\\Tier 4\\Refresher.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Spirit\\Tier 4\\Refresher.png"
+  },
+  {
+    "name": "Scourge",
+    "rel": "Spirit\\Tier 4\\Scourge.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Spirit\\Tier 4\\Scourge.png"
+  },
+  {
+    "name": "Spirit Burn",
+    "rel": "Spirit\\Tier 4\\Spirit Burn.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Spirit\\Tier 4\\Spirit Burn.png"
+  },
+  {
+    "name": "Transcendent Cooldown",
+    "rel": "Spirit\\Tier 4\\Transcendent Cooldown.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Spirit\\Tier 4\\Transcendent Cooldown.png"
+  },
+  {
+    "name": "Vortex Web",
+    "rel": "Spirit\\Tier 4\\Vortex Web.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Spirit\\Tier 4\\Vortex Web.png"
+  },
+  {
+    "name": "Extra Health",
+    "rel": "Vitality\\Tier 1\\Extra Health.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Vitality\\Tier 1\\Extra Health.png"
+  },
+  {
+    "name": "Extra Regen",
+    "rel": "Vitality\\Tier 1\\Extra Regen.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Vitality\\Tier 1\\Extra Regen.png"
+  },
+  {
+    "name": "Extra Stamina",
+    "rel": "Vitality\\Tier 1\\Extra Stamina.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Vitality\\Tier 1\\Extra Stamina.png"
+  },
+  {
+    "name": "Grit",
+    "rel": "Vitality\\Tier 1\\Grit.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Vitality\\Tier 1\\Grit.png"
+  },
+  {
+    "name": "Healing Rite",
+    "rel": "Vitality\\Tier 1\\Healing Rite.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Vitality\\Tier 1\\Healing Rite.png"
+  },
+  {
+    "name": "Melee Lifesteal",
+    "rel": "Vitality\\Tier 1\\Melee Lifesteal.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Vitality\\Tier 1\\Melee Lifesteal.png"
+  },
+  {
+    "name": "Rebuttal",
+    "rel": "Vitality\\Tier 1\\Rebuttal.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Vitality\\Tier 1\\Rebuttal.png"
+  },
+  {
+    "name": "Sprint Boots",
+    "rel": "Vitality\\Tier 1\\Sprint Boots.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Vitality\\Tier 1\\Sprint Boots.png"
+  },
+  {
+    "name": "Battle Vest",
+    "rel": "Vitality\\Tier 2\\Battle Vest.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Vitality\\Tier 2\\Battle Vest.png"
+  },
+  {
+    "name": "Bullet Lifesteal",
+    "rel": "Vitality\\Tier 2\\Bullet Lifesteal.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Vitality\\Tier 2\\Bullet Lifesteal.png"
+  },
+  {
+    "name": "Debuff Reducer",
+    "rel": "Vitality\\Tier 2\\Debuff Reducer.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Vitality\\Tier 2\\Debuff Reducer.png"
+  },
+  {
+    "name": "Enchanters Emblem",
+    "rel": "Vitality\\Tier 2\\Enchanters Emblem.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Vitality\\Tier 2\\Enchanters Emblem.png"
+  },
+  {
+    "name": "Enduring Speed",
+    "rel": "Vitality\\Tier 2\\Enduring Speed.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Vitality\\Tier 2\\Enduring Speed.png"
+  },
+  {
+    "name": "Guardian Ward",
+    "rel": "Vitality\\Tier 2\\Guardian Ward.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Vitality\\Tier 2\\Guardian Ward.png"
+  },
+  {
+    "name": "Healbane",
+    "rel": "Vitality\\Tier 2\\Healbane.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Vitality\\Tier 2\\Healbane.png"
+  },
+  {
+    "name": "Healing Booster",
+    "rel": "Vitality\\Tier 2\\Healing Booster.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Vitality\\Tier 2\\Healing Booster.png"
+  },
+  {
+    "name": "Reactive Barrier",
+    "rel": "Vitality\\Tier 2\\Reactive Barrier.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Vitality\\Tier 2\\Reactive Barrier.png"
+  },
+  {
+    "name": "Restorative Locket",
+    "rel": "Vitality\\Tier 2\\Restorative Locket.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Vitality\\Tier 2\\Restorative Locket.png"
+  },
+  {
+    "name": "Return Fire",
+    "rel": "Vitality\\Tier 2\\Return Fire.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Vitality\\Tier 2\\Return Fire.png"
+  },
+  {
+    "name": "Spirit Lifesteal",
+    "rel": "Vitality\\Tier 2\\Spirit Lifesteal.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Vitality\\Tier 2\\Spirit Lifesteal.png"
+  },
+  {
+    "name": "Spirit Shielding",
+    "rel": "Vitality\\Tier 2\\Spirit Shielding.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Vitality\\Tier 2\\Spirit Shielding.png"
+  },
+  {
+    "name": "Trophy Collector",
+    "rel": "Vitality\\Tier 2\\Trophy Collector.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Vitality\\Tier 2\\Trophy Collector.png"
+  },
+  {
+    "name": "Weapon Shielding",
+    "rel": "Vitality\\Tier 2\\Weapon Shielding.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Vitality\\Tier 2\\Weapon Shielding.png"
+  },
+  {
+    "name": "Bullet Resilience",
+    "rel": "Vitality\\Tier 3\\Bullet Resilience.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Vitality\\Tier 3\\Bullet Resilience.png"
+  },
+  {
+    "name": "Counterspell",
+    "rel": "Vitality\\Tier 3\\Counterspell.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Vitality\\Tier 3\\Counterspell.png"
+  },
+  {
+    "name": "Dispel Magic",
+    "rel": "Vitality\\Tier 3\\Dispel Magic.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Vitality\\Tier 3\\Dispel Magic.png"
+  },
+  {
+    "name": "Fortitude",
+    "rel": "Vitality\\Tier 3\\Fortitude.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Vitality\\Tier 3\\Fortitude.png"
+  },
+  {
+    "name": "Fury Trance",
+    "rel": "Vitality\\Tier 3\\Fury Trance.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Vitality\\Tier 3\\Fury Trance.png"
+  },
+  {
+    "name": "Healing Nova",
+    "rel": "Vitality\\Tier 3\\Healing Nova.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Vitality\\Tier 3\\Healing Nova.png"
+  },
+  {
+    "name": "Lifestrike",
+    "rel": "Vitality\\Tier 3\\Lifestrike.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Vitality\\Tier 3\\Lifestrike.png"
+  },
+  {
+    "name": "Majestic Leap",
+    "rel": "Vitality\\Tier 3\\Majestic Leap.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Vitality\\Tier 3\\Majestic Leap.png"
+  },
+  {
+    "name": "Metal Skin",
+    "rel": "Vitality\\Tier 3\\Metal Skin.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Vitality\\Tier 3\\Metal Skin.png"
+  },
+  {
+    "name": "Rescue Beam",
+    "rel": "Vitality\\Tier 3\\Rescue Beam.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Vitality\\Tier 3\\Rescue Beam.png"
+  },
+  {
+    "name": "Spirit Resilience",
+    "rel": "Vitality\\Tier 3\\Spirit Resilience.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Vitality\\Tier 3\\Spirit Resilience.png"
+  },
+  {
+    "name": "Stamina Mastery",
+    "rel": "Vitality\\Tier 3\\Stamina Mastery.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Vitality\\Tier 3\\Stamina Mastery.png"
+  },
+  {
+    "name": "Veil Walker",
+    "rel": "Vitality\\Tier 3\\Veil Walker.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Vitality\\Tier 3\\Veil Walker.png"
+  },
+  {
+    "name": "Warp Stone",
+    "rel": "Vitality\\Tier 3\\Warp Stone.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Vitality\\Tier 3\\Warp Stone.png"
+  },
+  {
+    "name": "Cheat Death",
+    "rel": "Vitality\\Tier 4\\Cheat Death.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Vitality\\Tier 4\\Cheat Death.png"
+  },
+  {
+    "name": "Colossus",
+    "rel": "Vitality\\Tier 4\\Colossus.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Vitality\\Tier 4\\Colossus.png"
+  },
+  {
+    "name": "Divine Barrier",
+    "rel": "Vitality\\Tier 4\\Divine Barrier.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Vitality\\Tier 4\\Divine Barrier.png"
+  },
+  {
+    "name": "Diviners Kevlar",
+    "rel": "Vitality\\Tier 4\\Diviners Kevlar.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Vitality\\Tier 4\\Diviners Kevlar.png"
+  },
+  {
+    "name": "Healing Tempo",
+    "rel": "Vitality\\Tier 4\\Healing Tempo.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Vitality\\Tier 4\\Healing Tempo.png"
+  },
+  {
+    "name": "Indomitable",
+    "rel": "Vitality\\Tier 4\\Indomitable.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Vitality\\Tier 4\\Indomitable.png"
+  },
+  {
+    "name": "Infuser",
+    "rel": "Vitality\\Tier 4\\Infuser.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Vitality\\Tier 4\\Infuser.png"
+  },
+  {
+    "name": "Inhibitor",
+    "rel": "Vitality\\Tier 4\\Inhibitor.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Vitality\\Tier 4\\Inhibitor.png"
+  },
+  {
+    "name": "Juggernaut",
+    "rel": "Vitality\\Tier 4\\Juggernaut.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Vitality\\Tier 4\\Juggernaut.png"
+  },
+  {
+    "name": "Leech",
+    "rel": "Vitality\\Tier 4\\Leech.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Vitality\\Tier 4\\Leech.png"
+  },
+  {
+    "name": "Phantom Strike",
+    "rel": "Vitality\\Tier 4\\Phantom Strike.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Vitality\\Tier 4\\Phantom Strike.png"
+  },
+  {
+    "name": "Plated Armor",
+    "rel": "Vitality\\Tier 4\\Plated Armor.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Vitality\\Tier 4\\Plated Armor.png"
+  },
+  {
+    "name": "Siphon Bullets",
+    "rel": "Vitality\\Tier 4\\Siphon Bullets.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Vitality\\Tier 4\\Siphon Bullets.png"
+  },
+  {
+    "name": "Spellbreaker",
+    "rel": "Vitality\\Tier 4\\Spellbreaker.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Vitality\\Tier 4\\Spellbreaker.png"
+  },
+  {
+    "name": "Unstoppable",
+    "rel": "Vitality\\Tier 4\\Unstoppable.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Vitality\\Tier 4\\Unstoppable.png"
+  },
+  {
+    "name": "Vampiric Burst",
+    "rel": "Vitality\\Tier 4\\Vampiric Burst.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Vitality\\Tier 4\\Vampiric Burst.png"
+  },
+  {
+    "name": "Witchmail",
+    "rel": "Vitality\\Tier 4\\Witchmail.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Vitality\\Tier 4\\Witchmail.png"
+  },
+  {
+    "name": "Close Quarters",
+    "rel": "Weapon\\Tier 1\\Close Quarters.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Weapon\\Tier 1\\Close Quarters.png"
+  },
+  {
+    "name": "Extended Magazine",
+    "rel": "Weapon\\Tier 1\\Extended Magazine.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Weapon\\Tier 1\\Extended Magazine.png"
+  },
+  {
+    "name": "Headshot Booster",
+    "rel": "Weapon\\Tier 1\\Headshot Booster.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Weapon\\Tier 1\\Headshot Booster.png"
+  },
+  {
+    "name": "High-Velocity Rounds",
+    "rel": "Weapon\\Tier 1\\High-Velocity Rounds.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Weapon\\Tier 1\\High-Velocity Rounds.png"
+  },
+  {
+    "name": "Monster Rounds",
+    "rel": "Weapon\\Tier 1\\Monster Rounds.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Weapon\\Tier 1\\Monster Rounds.png"
+  },
+  {
+    "name": "Rapid Rounds",
+    "rel": "Weapon\\Tier 1\\Rapid Rounds.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Weapon\\Tier 1\\Rapid Rounds.png"
+  },
+  {
+    "name": "Restorative Shot",
+    "rel": "Weapon\\Tier 1\\Restorative Shot.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Weapon\\Tier 1\\Restorative Shot.png"
+  },
+  {
+    "name": "Active Reload",
+    "rel": "Weapon\\Tier 2\\Active Reload.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Weapon\\Tier 2\\Active Reload.png"
+  },
+  {
+    "name": "Fleetfoot",
+    "rel": "Weapon\\Tier 2\\Fleetfoot.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Weapon\\Tier 2\\Fleetfoot.png"
+  },
+  {
+    "name": "Intensifying Magazine",
+    "rel": "Weapon\\Tier 2\\Intensifying Magazine.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Weapon\\Tier 2\\Intensifying Magazine.png"
+  },
+  {
+    "name": "Kinetic Dash",
+    "rel": "Weapon\\Tier 2\\Kinetic Dash.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Weapon\\Tier 2\\Kinetic Dash.png"
+  },
+  {
+    "name": "Long Range",
+    "rel": "Weapon\\Tier 2\\Long Range.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Weapon\\Tier 2\\Long Range.png"
+  },
+  {
+    "name": "Melee Charge",
+    "rel": "Weapon\\Tier 2\\Melee Charge.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Weapon\\Tier 2\\Melee Charge.png"
+  },
+  {
+    "name": "Mystic Shot",
+    "rel": "Weapon\\Tier 2\\Mystic Shot.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Weapon\\Tier 2\\Mystic Shot.png"
+  },
+  {
+    "name": "Opening Rounds",
+    "rel": "Weapon\\Tier 2\\Opening Rounds.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Weapon\\Tier 2\\Opening Rounds.png"
+  },
+  {
+    "name": "Recharging Rush",
+    "rel": "Weapon\\Tier 2\\Recharging Rush.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Weapon\\Tier 2\\Recharging Rush.png"
+  },
+  {
+    "name": "Slowing Bullets",
+    "rel": "Weapon\\Tier 2\\Slowing Bullets.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Weapon\\Tier 2\\Slowing Bullets.png"
+  },
+  {
+    "name": "Spirit Shredder",
+    "rel": "Weapon\\Tier 2\\Spirit Shredder.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Weapon\\Tier 2\\Spirit Shredder.png"
+  },
+  {
+    "name": "Split Shot",
+    "rel": "Weapon\\Tier 2\\Split Shot.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Weapon\\Tier 2\\Split Shot.png"
+  },
+  {
+    "name": "Stalker",
+    "rel": "Weapon\\Tier 2\\Stalker.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Weapon\\Tier 2\\Stalker.png"
+  },
+  {
+    "name": "Swift Striker",
+    "rel": "Weapon\\Tier 2\\Swift Striker.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Weapon\\Tier 2\\Swift Striker.png"
+  },
+  {
+    "name": "Titanic Magazine",
+    "rel": "Weapon\\Tier 2\\Titanic Magazine.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Weapon\\Tier 2\\Titanic Magazine.png"
+  },
+  {
+    "name": "Weakening Headshot",
+    "rel": "Weapon\\Tier 2\\Weakening Headshot.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Weapon\\Tier 2\\Weakening Headshot.png"
+  },
+  {
+    "name": "Alchemical Fire",
+    "rel": "Weapon\\Tier 3\\Alchemical Fire.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Weapon\\Tier 3\\Alchemical Fire.png"
+  },
+  {
+    "name": "Ballistic Enchantment",
+    "rel": "Weapon\\Tier 3\\Ballistic Enchantment.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Weapon\\Tier 3\\Ballistic Enchantment.png"
+  },
+  {
+    "name": "Berserker",
+    "rel": "Weapon\\Tier 3\\Berserker.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Weapon\\Tier 3\\Berserker.png"
+  },
+  {
+    "name": "Blood Tribute",
+    "rel": "Weapon\\Tier 3\\Blood Tribute.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Weapon\\Tier 3\\Blood Tribute.png"
+  },
+  {
+    "name": "Burst Fire",
+    "rel": "Weapon\\Tier 3\\Burst Fire.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Weapon\\Tier 3\\Burst Fire.png"
+  },
+  {
+    "name": "Cultist Sacrifice",
+    "rel": "Weapon\\Tier 3\\Cultist Sacrifice.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Weapon\\Tier 3\\Cultist Sacrifice.png"
+  },
+  {
+    "name": "Escalating Resilience",
+    "rel": "Weapon\\Tier 3\\Escalating Resilience.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Weapon\\Tier 3\\Escalating Resilience.png"
+  },
+  {
+    "name": "Headhunter",
+    "rel": "Weapon\\Tier 3\\Headhunter.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Weapon\\Tier 3\\Headhunter.png"
+  },
+  {
+    "name": "Heroic Aura",
+    "rel": "Weapon\\Tier 3\\Heroic Aura.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Weapon\\Tier 3\\Heroic Aura.png"
+  },
+  {
+    "name": "Hollow Point",
+    "rel": "Weapon\\Tier 3\\Hollow Point.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Weapon\\Tier 3\\Hollow Point.png"
+  },
+  {
+    "name": "Hunters Aura",
+    "rel": "Weapon\\Tier 3\\Hunters Aura.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Weapon\\Tier 3\\Hunters Aura.png"
+  },
+  {
+    "name": "Point Blank",
+    "rel": "Weapon\\Tier 3\\Point Blank.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Weapon\\Tier 3\\Point Blank.png"
+  },
+  {
+    "name": "Shadow Weave",
+    "rel": "Weapon\\Tier 3\\Shadow Weave.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Weapon\\Tier 3\\Shadow Weave.png"
+  },
+  {
+    "name": "Sharpshooter",
+    "rel": "Weapon\\Tier 3\\Sharpshooter.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Weapon\\Tier 3\\Sharpshooter.png"
+  },
+  {
+    "name": "Spirit Rend",
+    "rel": "Weapon\\Tier 3\\Spirit Rend.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Weapon\\Tier 3\\Spirit Rend.png"
+  },
+  {
+    "name": "Tesla Bullets",
+    "rel": "Weapon\\Tier 3\\Tesla Bullets.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Weapon\\Tier 3\\Tesla Bullets.png"
+  },
+  {
+    "name": "Toxic Bullets",
+    "rel": "Weapon\\Tier 3\\Toxic Bullets.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Weapon\\Tier 3\\Toxic Bullets.png"
+  },
+  {
+    "name": "Weighted Shots",
+    "rel": "Weapon\\Tier 3\\Weighted Shots.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Weapon\\Tier 3\\Weighted Shots.png"
+  },
+  {
+    "name": "Armor Piercer",
+    "rel": "Weapon\\Tier 4\\Armor Piercer.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Weapon\\Tier 4\\Armor Piercer.png"
+  },
+  {
+    "name": "Capacitor",
+    "rel": "Weapon\\Tier 4\\Capacitor.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Weapon\\Tier 4\\Capacitor.png"
+  },
+  {
+    "name": "Crippling Headshot",
+    "rel": "Weapon\\Tier 4\\Crippling Headshot.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Weapon\\Tier 4\\Crippling Headshot.png"
+  },
+  {
+    "name": "Crushing Fists",
+    "rel": "Weapon\\Tier 4\\Crushing Fists.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Weapon\\Tier 4\\Crushing Fists.png"
+  },
+  {
+    "name": "Frenzy",
+    "rel": "Weapon\\Tier 4\\Frenzy.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Weapon\\Tier 4\\Frenzy.png"
+  },
+  {
+    "name": "Glass Cannon",
+    "rel": "Weapon\\Tier 4\\Glass Cannon.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Weapon\\Tier 4\\Glass Cannon.png"
+  },
+  {
+    "name": "Lucky Shot",
+    "rel": "Weapon\\Tier 4\\Lucky Shot.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Weapon\\Tier 4\\Lucky Shot.png"
+  },
+  {
+    "name": "Ricochet",
+    "rel": "Weapon\\Tier 4\\Ricochet.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Weapon\\Tier 4\\Ricochet.png"
+  },
+  {
+    "name": "Silencer",
+    "rel": "Weapon\\Tier 4\\Silencer.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Weapon\\Tier 4\\Silencer.png"
+  },
+  {
+    "name": "Spellslinger",
+    "rel": "Weapon\\Tier 4\\Spellslinger.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Weapon\\Tier 4\\Spellslinger.png"
+  },
+  {
+    "name": "Spiritual Overflow",
+    "rel": "Weapon\\Tier 4\\Spiritual Overflow.png",
+    "fullPath": "C:\\Users\\Administrador\\Downloads\\DeadEx\\Item_description\\Weapon\\Tier 4\\Spiritual Overflow.png"
+  }
+]
